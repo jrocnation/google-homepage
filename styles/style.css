@@ -1,0 +1,177 @@
+* {
+    padding: 0; !important
+    margin: 0; !important
+} 
+
+/* header > .nav-bar > div > a {
+    display: flex;
+    flex-direction: row;
+
+} */
+ 
+html > body >header {
+    background-color: aqua;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* align-content: center; */
+    height: 30px;
+
+
+}
+
+html > body > header > div.header-left {
+    background-color: rgb(49, 247, 0);
+    display: flex;
+    /* flex-direction: row; */
+    align-items:center;
+    justify-content: start;
+    /* align-content: flex-start; */
+
+}
+
+html > body > header > div > a {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+html > body > header > div.header-right {
+    background-color: rgb(218, 0, 247);
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: right;
+    /* align-content: center; */
+
+}
+
+
+
+main {
+    background-color: green;
+    position; relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    /* justify-self: center; */
+    align-items: center;
+    /* align-content: center; */
+    /* margin: 50px; */
+}
+
+
+.google {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    bottom: 50%;
+    /* -ms-transform: translateY(-50%); */
+    /* transform: translateY(-50%); */
+
+}
+
+.google > div > button {
+
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: lawngreen;
+}
+
+/* .google > input[type=search] {
+    width: 500px;
+    height: 30px;
+    margin: 20px 0 0 0;
+    
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: rgb(168, 168, 168);
+} */
+
+
+/* .google > input[type=search] {
+    
+
+    width: 500px;
+    border-radius: 26px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    background-color: none;
+    background-image: url('https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Asearch%3A');
+
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    outline: none;
+} */
+
+/* input[type=search] {
+    background-image: url("https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Asearch%3A") top left
+    height: 30px;
+    padding-left: 25px;
+
+} */
+
+#add {
+    padding: 17px;
+    padding-left: 55px;
+    width: 300px;
+    border: 1px solid #a5a5a5;
+    font-size: 13px;
+    color: gray;
+    /* background-image: url('https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Asearch%3A'); */
+    background-image: url('//www.kirupa.com/images/search.png');;
+    background-position: 270px -10px;
+    background-repeat: no-repeat;
+    /* background-position: left center; */
+    outline: 0;
+}
+
+main > div {
+    background-color: grey;
+    display: flex;
+    
+    /* margin: 20px; */
+}
+
+footer {
+    /* position: fixed; */
+    background-color: goldenrod;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* position: relative fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    
+
+}
+
+html > body > footer > div.footer-left {
+    background-color: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+footer > div.footer-right {
+    background-color: rgb(58, 125, 250);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+footer > div > a {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+a {
+    text-decoration: none;
+}
